@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 2vw; 
+
+}
+
+.boardDiv {
+    display: grid;
+    gap: 5px 5px;
+    width: 33vw;
+    height: 33vw;
+}
+
+.gridCell {
+    border-style: solid;
+    border-color: grey;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    font-size: 1.5rem;
+}
+
+.gameButtons {
+    display: flex;
+    flex-direction: column;
+    width: 11vw;
+    height: 22vw;
+    justify-content: space-around;
+}
+
+.playerNotice {
+    font-size: 18px;
+}
